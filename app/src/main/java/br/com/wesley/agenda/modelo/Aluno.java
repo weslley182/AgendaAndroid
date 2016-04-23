@@ -1,9 +1,11 @@
 package br.com.wesley.agenda.modelo;
 
+import java.io.Serializable;
+
 /**
  * Created by Wesley on 22-Apr-16.
  */
-public class Aluno {
+public class Aluno implements Serializable{
     private Long id;
     private String nome;
     private String endereco;
